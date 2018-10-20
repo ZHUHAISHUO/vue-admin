@@ -4,7 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-Vue.config.productionTip = false
+import iView from 'iview'
+import 'iview/dist/styles/iview.css'
+
+Vue.use(iView)
+
+Vue.config.productionTip = false //  生产提示
 
 /* eslint-disable no-new */
 new Vue({
